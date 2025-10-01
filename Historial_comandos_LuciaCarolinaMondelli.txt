@@ -1,0 +1,134 @@
+sudo apt-get install gcc make perl
+exit
+sudo apt update && sudo apt upgrade
+EXIT
+sudo bzip2 tar install
+sudo apt update
+apt list --upgradable
+sudo apt update
+sudo apt install bzip2
+exit
+sudo apt install gcc make perl
+exit
+/var/log/vboxadd-setup.log
+sudo apt update
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+exit
+cat /var/log/vboxadd-setup.log
+sudo apt update
+sudo apt install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
+sudo apt update
+sudo apt upgrade
+sudo add-apt-repository universe
+sudo add-apt-repository multiverse
+sudo apt update
+sudo apt upgrade
+sudo apt install virtualbox-guest-utils virtualbox-guest-x11 virtualbox-guest-dkms
+sudo apt install virtualbox-guest-utils virtualbox-guest-x11
+ps -aux | grep 17303
+sudo kill -9 17303
+sudo rm /var/lib/dpkg/lock-frontend
+sudo rm /var/lib/apt/lists/lock
+sudo dpkg --configure -a
+sudo apt update
+sudo apt install virtualbox-guest-utils virtualbox-guest-x11
+sudo apt /var/log/vboxadd-setup.log
+cat /var/log/vboxadd-setup.log
+is /media
+ls /media
+sudo usermod -aG vboxsf $USER
+cd /media/sf_Shared
+ls
+cd /media/sf_Shared ld VirtualBoxShared
+cd /media/sf_Shared
+ls VirtualBoxShared
+VBoxControl sharedfolder list
+lsmod | grep vbox
+sudo apt update
+apt list --upgradable
+-a
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+sudo mkdir -p /mnt/cdrom
+sudo mount /dev/cdrom /mnt/cdrom
+sudo sh /mnt/cdrom/VBoxLinuxAdditions.run
+sudo usermod -aG vboxsf Luzzu
+exit
+ssh-keygen
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:Its-Luzzu/TP_AySO.git
+sudo apt install git
+git clone git@github.com:Its-Luzzu/TP_AySO.git
+cd TP_AySO
+pwd
+ls -l
+cat /etc/os-relase
+cat /etc/os-release
+man grep
+cd repogit
+cd Home
+cd
+cd repogit
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+-i
+man grep
+-i
+-i, --ignore-case
+--ignore-case
+man grep
+-i grep home_url /etc/os-release
+-i home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)"> datos_usuario.txt
+echo "Luzzu=$(whoami)">datos_usuario.txt
+echo “Usuario=$(whoami)” > datos_usuario.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+whoami
+command -v whoami || type whoami
+echo "Usuario=$(whoami)"
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+git add
+git add .
+pws
+pwd
+ls -a
+git clone git@github.com:Luzzu/TP_AySO.git
+cd ~/repogit/TP_AySO
+git status
+git add .
+git config --global user.email "luciamondelli15@gmail.com"
+git config --global user.name "Its-Luzzu"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat <<EOF >> README.md
+
+Alumno: Lucia Carolina Mondelli
+Division: 315
+Turno: Noche
+EOF
+
+cat <<EOF >> README.md
+
+Alumno: Lucia Carolina Mondelli
+Division: 315
+Turno: Noche
+EOF
+
+git add README.md
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
